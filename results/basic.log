@@ -1,0 +1,29 @@
+PLINK v1.90p 64-bit (16 Jun 2020)
+Options in effect:
+  --assoc
+  --file data/hapmap1
+  --out results/basic
+  --silent
+
+Hostname: E5-CHE-CMDZBLT
+Working directory: /Users/dzb5732/Box Sync/PhD-dzb5732@psu.edu/Courses/PSU/BIOL-460/Assignments/UnEssay2
+Start time: Sun Nov 15 17:42:15 2020
+
+Random number seed: 1605487335
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (83534 variants, 89 people).
+--file: results/basic-temporary.bed + results/basic-temporary.bim +
+results/basic-temporary.fam written.
+83534 variants loaded from .bim file.
+89 people (89 males, 0 females) loaded from .fam.
+89 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 89 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99441.
+83534 variants and 89 people pass filters and QC.
+Among remaining phenotypes, 44 are cases and 45 are controls.
+Writing C/C --assoc report to results/basic.assoc ... done.
+
+End time: Sun Nov 15 17:42:15 2020

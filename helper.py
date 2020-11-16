@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def get_manhattan_plot(df,significance_column):
     
     df['minuslog10pvalue'] = -np.log10(df[significance_column])

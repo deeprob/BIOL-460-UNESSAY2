@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (16 Jun 2020)
+Options in effect:
+  --adjust
+  --file data/hapmap1
+  --mh
+  --out results/final
+  --silent
+  --within results/popclust.cluster2
+
+Hostname: E5-CHE-CMDZBLT
+Working directory: /Users/dzb5732/Box Sync/PhD-dzb5732@psu.edu/Courses/PSU/BIOL-460/Assignments/UnEssay2
+Start time: Sun Nov 15 17:42:19 2020
+
+Random number seed: 1605487339
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (83534 variants, 89 people).
+--file: results/final-temporary.bed + results/final-temporary.bim +
+results/final-temporary.fam written.
+83534 variants loaded from .bim file.
+89 people (89 males, 0 females) loaded from .fam.
+89 phenotype values loaded from .fam.
+--within: 2 clusters loaded, covering a total of 89 people.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 89 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99441.
+83534 variants and 89 people pass filters and QC.
+Among remaining phenotypes, 44 are cases and 45 are controls.
+--mh/--bd: 2 valid clusters, with a total of 44 cases and 45 controls.
+Writing report to results/final.cmh ... done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.06152.
+--adjust values (68727 variants) written to results/final.cmh.adjusted .
+
+End time: Sun Nov 15 17:42:20 2020
